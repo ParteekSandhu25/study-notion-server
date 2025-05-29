@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParse());
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://study-notion-server-mu.vercel.app",
     credentials: true,
   })
 );
