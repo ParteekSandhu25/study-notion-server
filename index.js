@@ -26,7 +26,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParse());
 app.use(
   cors({
-    origin: "https://study-notion-server-mu.vercel.app",
+    origin: "https://study-notion-client-indol.vercel.app/",
     credentials: true,
   })
 );
